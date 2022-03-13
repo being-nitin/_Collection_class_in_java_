@@ -10,6 +10,7 @@ public class Main {
         list.add(23);
         list.add(21);
         list.add(26);
+        list.add(26);
         list.add(56);
         list.add(15);
 
@@ -18,10 +19,13 @@ public class Main {
 
         // for max element
         System.out.println(Collections.max(list));
+
+        // will print the no of times a particular element is present.
+        System.out.println(Collections.frequency(list,26));
+
+        // to sort the list in ascending order;
+        Collections.sort(list);
+
+
     }
-
-
-
-
-
-    }
+}
