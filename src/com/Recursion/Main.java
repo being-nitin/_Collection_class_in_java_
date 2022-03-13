@@ -1,6 +1,7 @@
 package com.Recursion;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 public class Main {
 
@@ -26,6 +27,7 @@ public class Main {
         // to sort the list in ascending order;
         Collections.sort(list);
 
-
+        // to sort the list in descending order.
+        Collections.sort(list, Comparator.reverseOrder());
     }
 }
