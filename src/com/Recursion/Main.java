@@ -15,11 +15,9 @@ public class Main {
 
         // for min element
         System.out.println(Collections.min(list));
-    
 
-
-
-
+        // for max element
+        System.out.println(Collections.max(list));
     }
 
 
